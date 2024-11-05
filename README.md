@@ -12,7 +12,7 @@ Read the given file, this program will execute
 3. translate Japanese into English (Deepl)
 4. English speech synthesis
 
-The audio and scripts are output to the output folder.
+The audio and scripts are output to the output folder (If the output folder does not exist, it is automatically generated in the root directory).
 
 # Preparation
 ## Common to all
