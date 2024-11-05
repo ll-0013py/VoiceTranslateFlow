@@ -14,6 +14,8 @@ Read the given file, this program will execute
 
 The audio and scripts are output to the output folder (If the output folder does not exist, it is automatically generated in the root directory).
 
+The Japanese script is output in its entirety, while the English audio is separated approximately every 10 minutes. The English script is divided and output along with the audio.
+
 # Preparation
 ## Common to all
 Before use this program, you need to import the libraries described in requirements.txt.
