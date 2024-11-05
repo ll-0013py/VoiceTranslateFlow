@@ -1,5 +1,5 @@
 # Summary
-The system can output a given Japanese presentation video/audio as audio translated into English. Corresponding scripts are also output.
+The system can output a given Japanese presentation video/audio as audio translated into English. Corresponding scripts are also output. This can be run on Google Colaboratory.
 
 # Usage
 Run main.ipynb written in Jupyter Notebook format.
@@ -17,6 +17,14 @@ The audio and scripts are output to the output folder (If the output folder does
 # Preparation
 ## Common to all
 Before use this program, you need to import the libraries described in requirements.txt.
+
+This one is basically intended to run on Google Colaboratory.
+If you want to run it in your local environment, please change the following variables to suit your environment.
+
+- env_path
+- context_path
+- prompt_fix_jp_path (optional)
+- output_dir
 
 ## API related
 Also, create `.env` file in root directory and write variables (API keys) as follows:
