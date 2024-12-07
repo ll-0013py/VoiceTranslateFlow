@@ -1,2 +1,4 @@
 # Ignore environment configuration file
 .env
+/original_voice/InutaAI.wav
+/original_voice/InutaAI - compressed.mp3
